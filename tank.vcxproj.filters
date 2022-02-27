@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{19f40498-1caf-41a2-908f-963bf01a019e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{5dca8230-fb7f-4af3-b198-263119cfbc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\IMGUI">
+      <UniqueIdentifier>{8331f9d4-5421-416b-90c3-a08856fbfd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Base">
+      <UniqueIdentifier>{bd4f3eb1-4320-44da-b8d3-ac3e4d257ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{8d8ec67d-ab9a-4b9e-8925-0bba20e7b77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{2cd27775-7612-478c-a421-c84f39e16a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{2e9f9d45-c756-4d2e-949b-d4e2bb13cf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\base">
+      <UniqueIdentifier>{a62a94f1-3028-4ec1-aa4b-2c237fc09f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\base">
+      <UniqueIdentifier>{66e9b461-b18e-4c4a-9b53-ea20d6927c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{f8d4cdb5-8235-40c9-bf7c-b1e1ebf74c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{116f7e2e-20bc-4ec4-a6fe-4673f850e372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\IMGUI">
+      <UniqueIdentifier>{e3b294a3-bef2-49de-bd3d-f352ebc7ca2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\other">
+      <UniqueIdentifier>{79c7f54d-b7b4-42bc-b11c-7c56a155dce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\collision">
+      <UniqueIdentifier>{b8d88518-ad06-42a7-8cbe-84e0c70e89ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\collision">
+      <UniqueIdentifier>{2769f176-3f47-4e37-a0a4-b026c35b0ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\other">
+      <UniqueIdentifier>{e0626e5b-ff45-4998-a85f-ecdd36fd2188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\model">
+      <UniqueIdentifier>{b73f0c53-3588-4ce0-91c8-6775b1d8193d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\model">
+      <UniqueIdentifier>{1eaf5134-f18f-40d2-85d4-c9fc36ad6eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader">
+      <UniqueIdentifier>{44f3bb53-0d24-438d-bd92-40daebfa522a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{f22b02bc-d0bf-41db-9954-20fb20de32a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{ceebd390-d87e-47e0-8416-5d75c42c08b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AI">
+      <UniqueIdentifier>{fbed371c-0359-47c8-8e40-865860c7950f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AI">
+      <UniqueIdentifier>{859966a9-2a98-462f-8d13-e690fcfc4173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Billboard">
+      <UniqueIdentifier>{b8f6fd1e-cd5c-4164-a634-85f618b04b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Billboard">
+      <UniqueIdentifier>{8dcece3f-7161-45c4-a140-ddedd171d696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\System">
+      <UniqueIdentifier>{c55d6459-98c4-410a-94e3-a92b1702607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\Game">
+      <UniqueIdentifier>{e52694c4-767b-4851-a5cc-43f1e6c707a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\System">
+      <UniqueIdentifier>{9b9c81d7-6195-473d-ab76-3c0b11fec162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\Game">
+      <UniqueIdentifier>{d5156b3d-e180-4423-a028-d94f95fe2d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{6c366df1-5429-461a-bfda-b701099a01f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{0717a725-be28-47d5-a0ff-b573128bb3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader\vertex">
+      <UniqueIdentifier>{5512cd85-d41a-4644-9148-64ee2e321d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader\pixel">
+      <UniqueIdentifier>{c19ed872-ac11-42b2-baa3-aa6267f7cd33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="myimgui.h">
+      <Filter>ヘッダー ファイル\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_Billboard.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CBillBoard.h">
+      <Filter>ヘッダー ファイル\System\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>ヘッダー ファイル\System\base</Filter>
+    </ClInclude>
+    <ClInclude Include="quad2d.h">
+      <Filter>ヘッダー ファイル\System\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>ヘッダー ファイル\System\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="2dsystem.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="assimpscene.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="blendstate.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectInput.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectxGraphics.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowCallback.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="drawaxis.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11mathutil.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Settransform.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11util.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="updatespherecamera.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="utftosjisconv.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexproto.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2.h">
+      <Filter>ヘッダー ファイル\System\other</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="obb.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>ヘッダー ファイル\System\model</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderhashmap.h">
+      <Filter>ヘッダー ファイル\System\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\System\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_UI.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshair_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="rule_AI.h">
+      <Filter>ヘッダー ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Rader_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RaderEne_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Camera.h">
+      <Filter>ヘッダー ファイル\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RaderEne_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMgr.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Manager.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Skydome.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Billboard.h">
+      <Filter>ヘッダー ファイル\Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Billboard.h">
+      <Filter>ヘッダー ファイル\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuad.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StageHit.h">
+      <Filter>ヘッダー ファイル\System\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadowmap.h">
+      <Filter>ヘッダー ファイル\System\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lader_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_UI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke_Billboard.h">
+      <Filter>ヘッダー ファイル\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire_Billboard.h">
+      <Filter>ヘッダー ファイル\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Select.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="myimgui.cpp">
+      <Filter>ソース ファイル\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CBillBoard.cpp">
+      <Filter>ソース ファイル\System\base</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>ソース ファイル\System\base</Filter>
+    </ClCompile>
+    <ClCompile Include="quad2d.cpp">
+      <Filter>ソース ファイル\System\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="2dsystem.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="assimpscene.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="blendstate.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindowCallback.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="drawaxis.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11mathutil.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11util.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatch.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="updatespherecamera.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="utftosjisconv.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="obb.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>ソース ファイル\System\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\System\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshair_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Base_UI.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="rule_AI.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Rader_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere_Manager.cpp">
+      <Filter>ソース ファイル\Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMgr.cpp">
+      <Filter>ソース ファイル\Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D_Manager.cpp">
+      <Filter>ソース ファイル\Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Manager.cpp">
+      <Filter>ソース ファイル\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Manager.cpp">
+      <Filter>ソース ファイル\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Camera.cpp">
+      <Filter>ソース ファイル\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RaderEne_Manager.cpp">
+      <Filter>ソース ファイル\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Manager.cpp">
+      <Filter>ソース ファイル\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RaderEne_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Billboard.cpp">
+      <Filter>ソース ファイル\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Billboard.cpp">
+      <Filter>ソース ファイル\Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Skydome.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight.cpp">
+      <Filter>ソース ファイル\System\other</Filter>
+    </ClCompile>
+    <ClCompile Include="StageHit.cpp">
+      <Filter>ソース ファイル\System\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadowmap.cpp">
+      <Filter>ソース ファイル\System\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Damage_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="landscape.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladar_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke_Billboard.cpp">
+      <Filter>ソース ファイル\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectXGraphics.cpp">
+      <Filter>ソース ファイル\System\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire_Billboard.cpp">
+      <Filter>ソース ファイル\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Select.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc141-mtd.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\psvscommon.hlsl">
+      <Filter>リソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\3dboxps.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psbillboard.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psenemy.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psground.fx">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psquad2d.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\pssphere.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\pstexcol.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\3dboxvs.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vs.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsbillboard.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsline.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsquad2d.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsquad2dfullscreen.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vssphere.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psoutline.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsoutline.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psvsm.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psshadowsoft.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsshadowmap.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\psshadowmap.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vsshadowmapsoft.hlsl">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\ps.hlsl">
+      <Filter>リソース ファイル\shader\pixel</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
